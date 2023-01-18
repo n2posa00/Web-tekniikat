@@ -5,9 +5,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap-harjoitus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/frontpage.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
+    <script src="./Javascript/frontpage.js" defer></script>
 </head>
 <body>
+
+<div id="contents">
+  <!-- Navbar starts here -->
+  <nav class="navbar sticky-top navbar-expand-xl">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Etusivu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lue lisää!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tietoja</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- Navbar ends here -->
+
+  <header>
+      <h1>Maailman suurin vuori</h1>
+  </header>
+
+  <!-- Carousel starts here -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Images/mount-everest-gef1a35e76_1280.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/snow-g40b91b4f1_1280.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/tibet-g2bfb2d783_1280.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  <!-- Carousel ends here -->
+
+  <div id="readMore">
+    <div>
+        <p>Lue lisää maailman suurimmasta vuoresta klikkaamalla nappia.</p>
+      <button type="button" class="btn btn-primary btn-sm">Lue lisää</button>
+    </div>
+  </div>
+
+  <div id="infoPage">
+    <div>
+      <P>Klikkaa nappia päästäksesi tietoja sivulle.</P>
+      <button type="button" class="btn btn-primary btn-sm">Tietoja</button>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <button type="button" class="btn btn-light btn-xxl active" aria-disabled="true">Etusivulle
+        <a href="./index.html"></a>
+      </button>
+    </div>
+  </footer>
+
+</div>
     
 </body>
 </html>
