@@ -1,1 +1,0 @@
-// Tekijä: Samuli Pohjola
