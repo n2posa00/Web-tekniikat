@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* Tekijä: Samuli Pohjola */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   background-color: #7E7C7C;
 }

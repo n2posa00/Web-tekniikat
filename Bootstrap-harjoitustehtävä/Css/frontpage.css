@@ -1,5 +1,9 @@
 /* Tekijä: Samuli Pohjola */
 
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: #7E7C7C;
 }
@@ -88,7 +92,7 @@ h1 {
     height: 100%;
 }
 
-#readMore div button {
+#readMore div a {
     padding: 5px;
     margin-left: 10px;
     align-items: center;
@@ -114,7 +118,7 @@ h1 {
     height: 100%;
 }
 
-#infoPage div button {
+#infoPage div a {
     padding: 5px;
     margin-left: 10px;
     align-items: center;
